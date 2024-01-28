@@ -1,0 +1,437 @@
+@font-face {
+    font-family: nb;
+    src: url(./NBInternationalProBoo.ttf);
+}
+@font-face {
+    font-family: rejoy;
+    src: url(./Rejouice-Headline.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: nb;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.cursor{
+    height: 7vw;
+    width: 7vw;
+    background-color: #ff5f38;
+    border-radius: 50%;
+    position:fixed;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+   
+    
+}
+.cursor h5{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.pg1{
+    height: 100vh;  
+    width: 100%;
+    background-color: #dadada;
+    position: relative;
+}
+.pg1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.pg1-con{
+    height: 100%;
+    width: 100%;  
+    position: relative;
+    z-index: 5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-between;
+    
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 3vw;
+}
+.nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+.nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+.pg1-con h1{
+    font-family: rejoy;
+    font-size: 25vw;
+    font-weight: 100;
+    line-height: 23vw;
+}
+.pg1-con h1 span{
+    font-family: rejoy;
+    display: inline-block;
+}
+.pg2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw 2.8vw;
+}
+.pg2-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+    overflow: hidden;
+}
+.pg2-top h3{
+    font-size: 1.7vw;
+    font-weight: 500;
+    width: 26%;
+}
+.pg2-top h4{
+    font-weight:500;
+    font-size: 1.7vw;
+
+}
+.elem{
+    overflow: hidden;
+}
+.elem h1{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.elem h1 span{
+    color: white;
+}
+.pg3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative ;
+    padding: 3vw;
+}
+.pg3-top{
+    text-align: center;
+
+}
+.pg3-top h4{
+    margin-bottom: 1vw;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.pg3-top h4 span{
+    font-size: 0.7 vw;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 7px;
+   
+}
+
+.pg3-top h2{
+    font-size: 4vw;
+    font-weight: 550;
+    
+}
+.pg3-top2{
+   
+   height: 5vh;
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pg3-top2 h4{
+    margin-top: 13vw;
+    font-weight: 100;
+}
+.pg3-elem{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7vw;
+}
+.pg3-elem .box{
+    height: 100%;
+    width: 32.7%;
+    position: relative;
+
+}
+.pg3-elem .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.pg3-elem .box img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: all linear .5s;
+}
+.pg3-elem .box div{
+    height: 30%;
+    width: 100%; 
+    top: 80%;
+      left: 31%;
+    position: absolute;
+}
+
+.pg3-elem .box div img{
+
+    height: 21%;
+    width: 42%;     
+    z-index: 3;
+    
+}
+.pg3-elem .box:hover img{
+    opacity: 0;
+}
+.pg3-elem .box:hover div img{
+    opacity: 1;
+}
+.pg4{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw 2.8vw;
+}
+.pg4-top{
+    overflow: hidden;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+}
+.pg4-top h3{
+    font-size: 1.5vw;
+    font-weight: 500;
+    width: 26%;
+}
+.elem1{
+    overflow: hidden;
+
+}
+.elem1 h1{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.elem1 h1 span{
+    color: white;
+}
+.pg5{
+    height: 100vh;
+    width: 100%;
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.pg5 video{
+    height: 100%;
+    
+   
+}
+.pg5 svg{
+    position: absolute;
+    height: 67%;
+
+}
+.pg6{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw 2.8vw;
+}
+.pg6-top{
+    overflow: hidden;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+}
+.pg6-top h3{
+    font-size: 1.5vw;
+    font-weight: 500;
+    width: 26%;
+}
+.elem2{
+    overflow: hidden;
+
+}
+.elem2 h1{
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+.elem2 h1 span{
+    color: white;
+}
+.pg7{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    
+   
+}
+.pg7 h1{
+    font-size: 9vw;
+    font-family: rejoy;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+    width: 96%;
+    margin-left: 2%;
+}
+.swiperdiv{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    margin-top: -3.7%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    animation: scroll 30s linear infinite;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-250px*8));
+    }
+}
+.swiperdiv img{
+    margin-left: 10px;
+    width: 19%;
+    object-fit: cover;
+}
+/* .swiper {
+    width: 122%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+   animation: scroll 20s linear infinite;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  @keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc((-250px * 9)));
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 19%;
+    object-fit: cover;
+  }
+   */
+   
+  
+  .loder{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+
+  }
+  .loder h3{
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 100;
+  }
+  .pg8{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-color: #000;
+   color: #fff;
+  }
+  .pg8-top{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0vw 2vw;
+  
+  }
+  .top1 h4{
+    font-weight: 100;
+  }
+  .top2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top2 h4{
+    font-weight: 100;
+
+  }
+  .pg8-con{
+    height: 100%;
+    width: 100%;  
+    position: relative;
+    z-index: 5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-between;
+    
+
+}
+.pg8-con h1{
+    font-family: rejoy;
+    font-size: 28vw;
+    font-weight: 100;
+    line-height: 23vw;
+    
+}
+.pg8-con h1 span{
+    font-family: rejoy;
+    display: inline-block;
+}
+
+  
+
+
+
+
+
